@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carnival Cruise Ship</title>
-    <img src="/Images/cruise.webp">
     <style>
         .hero{
-            height:500vh;
-            background-image:url(/Images/cruise.webp)no-repeat center;
+            height:100vh;
+            background-image:url("./Images/cruise.webp");
             background-size:cover;
             background-position: center;
+            
+        }
+        
+        .hero .content{
+            background-color:rgb(255, 255, 255,0.8);
+            padding: 10px 0;
             justify-content:center;
             text-align:center;
             display: flex;
-        }
-        
-        .hero.content{
-            flex: auto;
-            background-color:rgb(255, 255, 255,0.8);
-            padding: 30px 0;
-
+            
         }
         h1{
             color: black;
             font-size:4rem;
             text-align:center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-weight: 50;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
@@ -50,12 +50,12 @@
             color: red;
         }
 
-        @media (min-width 900px) {
+        @media (min-width: 900px) {
           h1{
-            font-size: 20rem;
+            font-size: 2rem;
              }
         .container p{
-         font-size: 15rem;
+         font-size: 1.5rem;
         }
         .hero{
             height: 700px;
@@ -70,10 +70,12 @@
     <div class="content">
     <div class="container">
     <h1>Life on a Cruise Ship</h1>
+    <a href="#" class="cta-btn">Join Us</a>
     <p>Now You Can Live On An All-Inclusive </br>
        Cruise Ship For Just $83 A Day
     </p>
-    <a href="#">Join Us</a>
+</div>
+</div>
 </div>
 </header>  
 </body>
